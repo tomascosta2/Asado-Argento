@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -87,12 +87,12 @@ nav ul li a:hover {
     display: flex;
     padding: 30px;
     /* background-color: green; */
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .inicio aside {
-    background-color: #222;
+    background-color: #ccc;
     position: sticky;
     top: 10px;
     width: 40%;
@@ -103,17 +103,17 @@ nav ul li a:hover {
 .inicio aside p {
     margin: 20px 0;
     text-align: center;
-    color: #fff;
+    color: #222;
 }
 
 .inicio aside ul li {
     list-style: none;
-    color: #fff;
+    color: #222;
 }
 
 .inicio aside ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #222;
 }
 
 .inicio aside ul li a:hover {
