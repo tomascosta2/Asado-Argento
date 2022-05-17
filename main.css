@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.welcome-cont {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url(images/img3-blur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-cont .logo-cont h2 {
+    color: #fff;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.welcome-cont .data-links-cont p {
+    color: #fff;
+}
+
+.welcome-cont .data-links-cont .links {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-cont .data-links-cont .links .link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-cont .data-links-cont .links .link {
+    background-color: #111;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+}
+
+.welcome-cont .data-links-cont .links .link:hover {
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+} 
+
+/* NAV */
+
+nav ul {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s all;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 102, 0);
+}
+
+/* INICIO */
+
+.inicio {
+    display: flex;
+    padding: 30px;
+    /* background-color: green; */
+    width: 60%;
+    margin: 0 auto;
+}
+
+.inicio aside {
+    background-color: #222;
+    position: sticky;
+    top: 10px;
+    width: 40%;
+    height: 75vh;
+    padding: 20px;
+}
+
+.inicio aside p {
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.inicio aside ul li {
+    list-style: none;
+    color: #fff;
+}
+
+.inicio aside ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.inicio aside ul li a:hover {
+    text-decoration: underline;
+}
+
+.inicio aside ul li a i {
+    margin: 5px;
+}
+
+.inicio aside iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.inicio main {
+    /* background-color: aqua; */
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.inicio main p {
+    margin-top: 20px;
+}
+
+.inicio main img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.main-inicio h1 {
+    margin-bottom: 20px;
+}
+
+/* CONTACTO */
+
+.main-inicio form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+
+.main-inicio form input,
+.main-inicio form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.main-inicio form textarea {
+    resize: none;
+}
+
+.main-inicio form input {
+    height: 20px;
+}
+
+.main-inicio .submit-btn {
+    height: 30px;
+    transition: .3s all;
+}
+
+.main-inicio .submit-btn:hover {
+    cursor: pointer;
+    background-color: #999;
+    color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #111;
+    padding: 30px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
