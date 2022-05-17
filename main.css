@@ -151,6 +151,7 @@ nav ul li a:hover {
 
 .main-inicio h1 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* CONTACTO */
@@ -201,4 +202,29 @@ footer {
 footer p {
     color: #fff;
     text-align: center;
+}
+
+/* MEDIAS */
+
+@media (max-width: 1030px) {
+    .inicio {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    .inicio {
+        flex-direction: column-reverse;
+    }
+
+    .inicio aside {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inicio main {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
