@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 300px;
+    width: 100vw;
     background-image: url(images/img3-blur.jpg);
     background-size: cover;
     background-position: center;
@@ -202,6 +203,7 @@ nav ul li a[aria-current="page"] {
 footer {
     background-color: #111;
     padding: 30px;
+    margin-top: 30px;
 }
 
 footer p {
@@ -213,23 +215,32 @@ footer p {
 
 @media (max-width: 1030px) {
     .inicio {
-        width: 90%;
+        width: 100vw;
+        padding: 0;
     }
 }
 
 @media (max-width: 900px) {
     .inicio {
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: unset;
+        padding: 0;
+        width: 100vw;
     }
 
     .inicio aside {
         position: relative;
         width: 90%;
-        margin: 0 auto;
+        margin: unset;
+        padding: 0;
     }
 
     .inicio main {
         width: 90%;
-        margin: 0 auto;
+        margin: unset;
+        margin-top: 20px;
+        padding: 0;
     }
 }
